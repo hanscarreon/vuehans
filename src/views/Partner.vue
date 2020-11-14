@@ -22,7 +22,7 @@
                             <div class="col-md-6 col-sm-6 col-6">
                                 <img  class="mt-5" src="../assets/img/p4.png">
                             </div>
-                            <div class="col-md-6 col-sm-6 col-6">
+                            <div class="col-md-6 col-sm-12 col-12">
                                 <img  class="mt-5" src="../assets/img/p7.png">
                             </div>
                         </div>
