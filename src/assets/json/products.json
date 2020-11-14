@@ -1,0 +1,25 @@
+{
+    "products":[
+        {
+            "id":1,
+            "title":"VIRTUAL REALITY",
+            "desc":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do",
+            "img":"vr.png"
+
+
+        },
+        {
+            "id":2,
+            "title":"E-LEARNING",
+            "desc":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do",
+            "img":"e_learning.png"
+
+        },
+        {
+            "id":3,
+            "title":"TOUR",
+            "desc":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do",
+            "img":"360_tour.png"
+        }
+    ]
+}

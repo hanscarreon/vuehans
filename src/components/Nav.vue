@@ -1,35 +1,37 @@
 <template>
-    <nav class="navbar navbar-expand-lg navbar-light nav-bg">
-         <!-- <router-link to="/">Home</router-link> |
-      <router-link to="/about">About</router-link> -->
-        <router-link to="/" class="navbar-brand " href="#">Logo</router-link>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+   
+
+<div id="nav-main" class="container">
+    <nav class="navbar navbar-expand-md navbar-light bg-white">
+        <router-link  to="/" class="navbar-brand"><img src="../assets/img/logopci.png" class="d-inline-block align-top" height="auto" width="150px" alt=""></router-link>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav">
             <span class="navbar-toggler-icon"></span>
         </button>
-        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav mr-auto">
+            <!-- /. spacer -->
+            </ul>
             <ul class="navbar-nav">
-            <li class="nav-item ">
-                <router-link class="nav-link" to="/">Home</router-link>
-            </li>
-            <li class="nav-item">
-                <router-link class="nav-link" to="/about">About</router-link>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="#">Pricing</a>
-            </li>
-            <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                Dropdown link
-                </a>
-                <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                <a class="dropdown-item" href="#">Action</a>
-                <a class="dropdown-item" href="#">Another action</a>
-                <a class="dropdown-item" href="#">Something else here</a>
-                </div>
-            </li>
+                <li class="nav-item m-2">
+                    <router-link class="nav-link" to="/about">ABOUT</router-link>
+                </li>
+                <li class="nav-item m-2">
+                    <router-link class="nav-link" to="/service">WHAT WE DO</router-link>
+                </li>
+                <li class="nav-item m-2">
+                    <router-link class="nav-link" to="/news">NEWS</router-link>
+                </li>
+                <li class="nav-item m-2">
+                    <router-link class="nav-link" to="/contact">CONTACT US</router-link>
+                </li>
             </ul>
         </div>
     </nav>
+    
+</div>
+
+
+      
 </template>
 
 <script>
@@ -38,13 +40,26 @@ export default {
 }
 </script>
 
-<style scoped lang="scss">
+<style scope lang="scss">
 @import "../style/_variables.scss";
 
 .nav-bg{
     background-color: $color-white;
-   
-   
+}
+.router-link-active{
+    color: $color-green!important;
+}
+#navbarNav{
+    .navbar-nav{
+        .nav-item{
+            font-family: 'sta-reg';
+            font-size: 1.5em;
+            a{
+                color : $color-black;
+            }
+        }
+        
+    }
 }
 
 </style>

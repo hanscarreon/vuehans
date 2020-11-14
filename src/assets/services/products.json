@@ -1,0 +1,19 @@
+{
+    "products":[
+        {
+            "id":1,
+            "title":"VIRTUAL REALITY",
+            "desc":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do"
+        },
+        {
+            "id":2,
+            "title":"E-LEARNING",
+            "desc":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do"
+        },
+        {
+            "id":3,
+            "title":"360 TOUR",
+            "desc":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do"
+        }
+    ]
+}

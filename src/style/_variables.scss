@@ -1,3 +1,46 @@
+
+// colors declarations
 $color-green: #7DC242;
 $color-white: rgb(255, 255, 255);
+$color-black: rgb(0, 0, 0);
+$color-orange: #d97b5c;
 
+// media quries break points
+$breakpoint-latop: 1080px;
+$breakpoint-tablet: 768px;
+$breakpoint-websmall: 650px;
+$breakpoint-mobile: 500px;
+$breakpoint-px2: 414px;
+$breakpoint-px1: 411px;
+$breakpoint-xs2: 375px;
+$breakpoint-xs1: 320px;
+
+// general css 
+.color-green{
+    color: $color-green;
+}
+
+// custom fonts
+@font-face {
+    font-family: "lt-light";
+    src: url("../assets/fonts/futuralt-book.ttf");
+}
+@font-face {
+    font-family: "sta-reg";
+    src: url("../assets/fonts/sta-reg.ttf");
+}
+
+@font-face {
+    font-family: "sugo-trial";
+    src: url("../assets/fonts/sugo.ttf");
+}
+
+@font-face {
+    font-family: "ft-bold";
+    src: url("../assets/fonts/ft-bold.ttf");
+}
+
+@font-face {
+    font-family: "ft-book";
+    src: url("../assets/fonts/ft-book.ttf");
+}
